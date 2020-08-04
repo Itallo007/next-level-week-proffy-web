@@ -7,6 +7,8 @@ import studyIcon from "../../assets/images/icons/study.svg";
 import giveClassesIcon from "../../assets/images/icons/give-classes.svg";
 import purpleHeratIcon from "../../assets/images/icons/purple-heart.svg";
 
+import "./styles.css";
+
 function Landing() {
 	return (
 		<div id="page-landing">
@@ -21,15 +23,15 @@ function Landing() {
 					alt="Plataforma de estudos" className="hero-image"
 				/>
 
-				<div id="button-container">
+				<div className="buttons-container">
 					<a href="" className="study">
 						<img src={studyIcon} alt="estudar"/>
 						Estudar
 					</a>
 
 					<a href="" className="give-classes">
-						<img src={giveClassesIcon} alt="ensinar"/>
-						Ensinar
+						<img src={giveClassesIcon} alt="Dar aulas"/>
+						Dar aulas
 					</a>
 				</div>
 
