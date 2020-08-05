@@ -87,8 +87,6 @@ export default class ClassesController {
     
       trx.commit();
     
-      console.log(request.body);
-    
       return response.status(201).send();
   
     } catch (error) {
