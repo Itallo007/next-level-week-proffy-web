@@ -61,15 +61,6 @@ function TeacherForm() {
 		}).catch(() => {
 			alert('Erro no cadastro!');
 		})
-		console.log({
-			name,
-			avatar,
-			whatsapp,
-			bio,
-			subject,
-			cost,
-			scheduleItems
-		})
 	}
 
 	return (

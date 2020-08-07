@@ -27,7 +27,6 @@ function TeacherList() {
 		});
 
 		setTeachers(response.data);
-		console.log(response.data[0].name);
 	}
 
 	return (
